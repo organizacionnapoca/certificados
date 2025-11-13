@@ -460,7 +460,7 @@
         `;
 
         // Actualizar la vista del certificado
-        const imageUrl = `imagenesadn/${codigo}.png`;
+        const imageUrl = `imagenes/${codigo}.png`;
         const drivePreview = cert.driveId
           ? `https://drive.google.com/file/d/${cert.driveId}/preview`
           : null;
@@ -538,4 +538,5 @@
     document.addEventListener('DOMContentLoaded', verificarCertificado);
   </script>
 </body>
+
 </html>
